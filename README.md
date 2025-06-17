@@ -38,5 +38,33 @@ Implement the function `sort(width, height, length, mass)` where the units are c
    - Handling of edge cases and inputs.
    - Test coverage.
 
-This repository is intentionally minimal. Fork or clone it to begin your implementation.
+## Implementation
+
+The package sorting function has been implemented in Python. The main components are:
+
+- `package_sorter.py` - Contains the `sort(width, height, length, mass)` function
+- `test_package_sorter.py` - Comprehensive test suite covering all scenarios
+- `example.py` - Usage examples and demonstrations
+
+### Usage
+
+```python
+from package_sorter import sort
+
+# Example usage
+result = sort(width=100, height=100, length=100, mass=15)
+print(result)  # Output: "SPECIAL"
+```
+
+### Running Tests
+
+```bash
+python test_package_sorter.py
+```
+
+### Running Examples
+
+```bash
+python example.py
+```
 
